@@ -334,8 +334,14 @@ img {
    Aquí le das apariencia visual.
 */
 .site-footer{
-    background-color: #1f2233;
-    color: #fff;
-    text-align: center;
- 
+  grid-area: footer;
+  background-color: #1f2233;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
+
